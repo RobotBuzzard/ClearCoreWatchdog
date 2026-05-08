@@ -8,7 +8,7 @@ Bench-validated on real hardware. Deliberate-hang test (the firmware enters `whi
 
 ## Why this exists
 
-If you've gone looking for `Watchdog.enable()` on the ClearCore and come up empty, you're not alone. The ClearCore Arduino API exposes `SysManager::ConnectorByIndex()` and `SysManager::ResetBoard()` and that's it — no watchdog timer abstraction at all (verified against [the published API reference](https://teknic-inc.github.io/ClearCore-library/) at the time of writing).
+ClearCore is so freaking good at that low level industrial controller, but I'm so lazy at writing solid code, that I needed a watchdog.  I beleive this is the only watchdog that uses the hardware WDT.  A search for `Watchdog.enable()` on the ClearCore came up empty.   Since the ClearCore Arduino API exposes `SysManager::ConnectorByIndex()` and `SysManager::ResetBoard()` and that's it, no watchdog timer abstraction, (verified against [the published API reference](https://teknic-inc.github.io/ClearCore-library/) at the time of writing).
 
 The SAMD51/SAME53 chip itself has a perfectly capable hardware watchdog. This library wraps it.
 
