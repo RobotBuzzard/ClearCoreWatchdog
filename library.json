@@ -1,0 +1,21 @@
+{
+  "name": "ClearCoreWatchdog",
+  "version": "1.0.0",
+  "description": "Hardware watchdog timer for the Teknic ClearCore (Microchip SAME53N19A). Direct CMSIS register access to fill the gap left by Teknic's Arduino library. Bench-validated.",
+  "keywords": ["watchdog", "wdt", "clearcore", "teknic", "samd51", "same53", "saw53"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RobotBuzzard/ClearCoreWatchdog.git"
+  },
+  "authors": [
+    {
+      "name": "RobotBuzzard",
+      "email": "buzzy@reasonablerobot.io",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": ["atmelsam"],
+  "headers": "ClearCoreWatchdog.h"
+}

@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map for ClearCoreWatchdog
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ClearCoreWatchdogClass	KEYWORD1
+WdtPeriod	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Watchdog	KEYWORD2
+enable	KEYWORD2
+disable	KEYWORD2
+kick	KEYWORD2
+isEnabled	KEYWORD2
+lastResetCause	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+WdtPeriod_1s	LITERAL1
+WdtPeriod_2s	LITERAL1
+WdtPeriod_4s	LITERAL1
+WdtPeriod_8s	LITERAL1
+WdtPeriod_16s	LITERAL1

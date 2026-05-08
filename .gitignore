@@ -1,0 +1,23 @@
+# Arduino / arduino-cli build artifacts
+build/
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.eep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Defensive: anything that looks like a leaked credential
+*.pat
+.gh-pat
